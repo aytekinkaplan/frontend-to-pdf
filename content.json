@@ -1,0 +1,99 @@
+{
+  "articles": [
+    {
+      "title": "Introduction to Python",
+      "author": "John Doe",
+      "date": "2023-05-01",
+      "content": [
+        {
+          "type": "text",
+          "value": "Python is a versatile programming language known for its simplicity and readability. It's widely used in various fields such as web development, data science, and artificial intelligence."
+        },
+        {
+          "type": "code",
+          "value": "print('Hello, World!')"
+        },
+        {
+          "type": "text",
+          "value": "This is your first Python program. Let's break it down..."
+        }
+      ]
+    },
+    {
+      "title": "Python Data Structures",
+      "author": "Jane Smith",
+      "date": "2023-05-05",
+      "content": [
+        {
+          "type": "text",
+          "value": "Python offers several built-in data structures that are essential for efficient programming. Let's look at lists and dictionaries."
+        },
+        {
+          "type": "code",
+          "value": "my_list = [1, 2, 3, 4, 5]\nmy_dict = {'key': 'value'}"
+        },
+        {
+          "type": "text",
+          "value": "Lists are ordered collections, while dictionaries store key-value pairs."
+        }
+      ]
+    },
+    {
+      "title": "Functions in Python",
+      "author": "Bob Johnson",
+      "date": "2023-05-10",
+      "content": [
+        {
+          "type": "text",
+          "value": "Functions are reusable blocks of code that perform specific tasks. They help in organizing and modularizing your code."
+        },
+        {
+          "type": "code",
+          "value": "def greet(name):\n    return f'Hello, {name}!'\n\nprint(greet('Alice'))"
+        },
+        {
+          "type": "text",
+          "value": "This function takes a name as input and returns a greeting message."
+        }
+      ]
+    },
+    {
+      "title": "Python File Handling",
+      "author": "Alice Brown",
+      "date": "2023-05-15",
+      "content": [
+        {
+          "type": "text",
+          "value": "File handling is crucial for working with external data. Python provides easy-to-use methods for reading from and writing to files."
+        },
+        {
+          "type": "code",
+          "value": "with open('example.txt', 'w') as f:\n    f.write('Hello, File!')\n\nwith open('example.txt', 'r') as f:\n    content = f.read()\n    print(content)"
+        },
+        {
+          "type": "text",
+          "value": "This code writes to a file and then reads its content."
+        }
+      ]
+    },
+    {
+      "title": "Python Exception Handling",
+      "author": "Charlie Davis",
+      "date": "2023-05-20",
+      "content": [
+        {
+          "type": "text",
+          "value": "Exception handling allows you to manage errors gracefully in your Python programs."
+        },
+        {
+          "type": "code",
+          "value": "try:\n    result = 10 / 0\nexcept ZeroDivisionError:\n    print('Error: Division by zero!')\nelse:\n    print(f'Result: {result}')\nfinally:\n    print('This always executes')"
+        },
+        {
+          "type": "text",
+          "value": "This example demonstrates how to handle a division by zero error."
+        }
+      ]
+    }
+  ]
+}
